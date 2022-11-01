@@ -1,0 +1,372 @@
+{
+    "data": {
+        "entityUrn": "urn:li:collectionResponse:Pi+rac6TxwwNm6hr/xspLjQUWMLvmCdTfnEVfu8esgI=",
+        "paging": {
+            "count": 10,
+            "start": 0,
+            "links": []
+        },
+        "*elements": [
+            "urn:li:fs_normalized_company:15912848"
+        ],
+        "$type": "com.linkedin.restli.common.CollectionResponse"
+    },
+    "included": [
+        {
+            "entityUrn": "urn:li:fs_followingInfo:urn:li:hashtag:lowcostclinic",
+            "trackingUrn": "urn:li:hashtag:lowcostclinic",
+            "following": false,
+            "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_hashtag:lowcostclinic",
+            "followingType": "DEFAULT",
+            "followerCount": 0,
+            "followingCount": null,
+            "$type": "com.linkedin.voyager.common.FollowingInfo"
+        },
+        {
+            "entityUrn": "urn:li:fs_followingInfo:urn:li:hashtag:valleyanimalcenter",
+            "trackingUrn": "urn:li:hashtag:valleyanimalcenter",
+            "following": false,
+            "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_hashtag:valleyanimalcenter",
+            "followingType": "DEFAULT",
+            "followerCount": 0,
+            "followingCount": null,
+            "$type": "com.linkedin.voyager.common.FollowingInfo"
+        },
+        {
+            "trackingUrn": null,
+            "followingType": "DEFAULT",
+            "followingCount": null,
+            "$type": "com.linkedin.voyager.common.FollowingInfo",
+            "entityUrn": "urn:li:fs_followingInfo:urn:li:company:15912848",
+            "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_company:15912848",
+            "following": false,
+            "followerCount": 166
+        },
+        {
+            "entityUrn": "urn:li:fs_followingInfo:urn:li:hashtag:nokillshelter",
+            "trackingUrn": "urn:li:hashtag:nokillshelter",
+            "following": false,
+            "dashFollowingStateUrn": "urn:li:fsd_followingState:urn:li:fsd_hashtag:nokillshelter",
+            "followingType": "DEFAULT",
+            "followerCount": 1,
+            "followingCount": null,
+            "$type": "com.linkedin.voyager.common.FollowingInfo"
+        },
+        {
+            "localizedName": "Non-profit Organization Management",
+            "entityUrn": "urn:li:fs_industry:100",
+            "$type": "com.linkedin.voyager.common.Industry"
+        },
+        {
+            "*feedTopic": "urn:li:fs_feedTopic:(urn:li:hashtag:nokillshelter,HASHTAG_FEED)",
+            "entityUrn": "urn:li:fs_contentTopicData:urn:li:hashtag:nokillshelter",
+            "$recipeTypes": [
+                "com.linkedin.voyager.deco.organization.web.WebContentTopicDataCard"
+            ],
+            "followAction": {
+                "unfollowTrackingActionType": "unfollowTopic",
+                "followTrackingActionType": "followTopic",
+                "*followingInfo": "urn:li:fs_followingInfo:urn:li:hashtag:nokillshelter",
+                "trackingActionType": "followTopic",
+                "type": "FOLLOW_TOGGLE",
+                "$type": "com.linkedin.voyager.feed.render.FollowAction"
+            },
+            "$type": "com.linkedin.voyager.feed.ContentTopicData"
+        },
+        {
+            "*feedTopic": "urn:li:fs_feedTopic:(urn:li:hashtag:valleyanimalcenter,HASHTAG_FEED)",
+            "entityUrn": "urn:li:fs_contentTopicData:urn:li:hashtag:valleyanimalcenter",
+            "$recipeTypes": [
+                "com.linkedin.voyager.deco.organization.web.WebContentTopicDataCard"
+            ],
+            "followAction": {
+                "unfollowTrackingActionType": "unfollowTopic",
+                "followTrackingActionType": "followTopic",
+                "*followingInfo": "urn:li:fs_followingInfo:urn:li:hashtag:valleyanimalcenter",
+                "trackingActionType": "followTopic",
+                "type": "FOLLOW_TOGGLE",
+                "$type": "com.linkedin.voyager.feed.render.FollowAction"
+            },
+            "$type": "com.linkedin.voyager.feed.ContentTopicData"
+        },
+        {
+            "*feedTopic": "urn:li:fs_feedTopic:(urn:li:hashtag:lowcostclinic,HASHTAG_FEED)",
+            "entityUrn": "urn:li:fs_contentTopicData:urn:li:hashtag:lowcostclinic",
+            "$recipeTypes": [
+                "com.linkedin.voyager.deco.organization.web.WebContentTopicDataCard"
+            ],
+            "followAction": {
+                "unfollowTrackingActionType": "unfollowTopic",
+                "followTrackingActionType": "followTopic",
+                "*followingInfo": "urn:li:fs_followingInfo:urn:li:hashtag:lowcostclinic",
+                "trackingActionType": "followTopic",
+                "type": "FOLLOW_TOGGLE",
+                "$type": "com.linkedin.voyager.feed.render.FollowAction"
+            },
+            "$type": "com.linkedin.voyager.feed.ContentTopicData"
+        },
+        {
+            "summary": null,
+            "entityUrn": "urn:li:fs_feedTopic:(urn:li:hashtag:valleyanimalcenter,HASHTAG_FEED)",
+            "topic": {
+                "name": "#valleyanimalcenter",
+                "trending": false,
+                "recommendationTrackingId": "P\u00d0\u00b4\u00b1\u0003\u001dO\u008c\u00b3\u00de&\u00d5\u007f4^~",
+                "useCase": "HASHTAG_FEED",
+                "backendUrn": "urn:li:hashtag:valleyanimalcenter",
+                "$type": "com.linkedin.voyager.search.shared.Topic"
+            },
+            "tracking": {
+                "$type": "com.linkedin.voyager.feed.TrackingData",
+                "trackingId": "UNC0sQMdT4yz3ibVfzRefg=="
+            },
+            "headline": null,
+            "$type": "com.linkedin.voyager.feed.FeedTopic",
+            "covid19": null
+        },
+        {
+            "summary": null,
+            "entityUrn": "urn:li:fs_feedTopic:(urn:li:hashtag:nokillshelter,HASHTAG_FEED)",
+            "topic": {
+                "name": "#nokillshelter",
+                "trending": false,
+                "recommendationTrackingId": "M\u00dc\u00c8\u00cc\u00e4s@\u0091\u00b4j\u008bV\u00a8\u009d\u00f2\u00eb",
+                "useCase": "HASHTAG_FEED",
+                "backendUrn": "urn:li:hashtag:nokillshelter",
+                "$type": "com.linkedin.voyager.search.shared.Topic"
+            },
+            "tracking": {
+                "$type": "com.linkedin.voyager.feed.TrackingData",
+                "trackingId": "TdzIzORzQJG0aotWqJ3y6w=="
+            },
+            "headline": null,
+            "$type": "com.linkedin.voyager.feed.FeedTopic",
+            "covid19": null
+        },
+        {
+            "summary": null,
+            "entityUrn": "urn:li:fs_feedTopic:(urn:li:hashtag:lowcostclinic,HASHTAG_FEED)",
+            "topic": {
+                "name": "#lowcostclinic",
+                "trending": false,
+                "recommendationTrackingId": "\u00ad$Mm\u00a2\u00d1I\u00d8\u00ba\u001a\u00e6$7\u00c1\u00a5r",
+                "useCase": "HASHTAG_FEED",
+                "backendUrn": "urn:li:hashtag:lowcostclinic",
+                "$type": "com.linkedin.voyager.search.shared.Topic"
+            },
+            "tracking": {
+                "$type": "com.linkedin.voyager.feed.TrackingData",
+                "trackingId": "rSRNbaLRSdi6GuYkN8Glcg=="
+            },
+            "headline": null,
+            "$type": "com.linkedin.voyager.feed.FeedTopic",
+            "covid19": null
+        },
+        {
+            "partnerLogo": null,
+            "staffingCompany": false,
+            "callToAction": {
+                "callToActionType": "VIEW_WEBSITE",
+                "visible": true,
+                "callToActionMessage": {
+                    "textDirection": "USER_LOCALE",
+                    "text": "Visit website",
+                    "$type": "com.linkedin.voyager.common.TextViewModel"
+                },
+                "url": "http://valleyanimal.org",
+                "$type": "com.linkedin.voyager.organization.OrganizationCallToAction"
+            },
+            "staffCount": 27,
+            "adsRule": "STANDARD",
+            "companyEmployeesSearchPageUrl": "https://www.linkedin.com/vsearch/p?f_CC=15912848",
+            "viewerFollowingJobsUpdates": false,
+            "acquirerCompany": null,
+            "staffCountRange": {
+                "start": 11,
+                "end": 50,
+                "$type": "com.linkedin.voyager.organization.shared.StaffCountRange"
+            },
+            "school": null,
+            "permissions": {
+                "landingPageAdmin": false,
+                "admin": false,
+                "adAccountHolder": false,
+                "$type": "com.linkedin.voyager.organization.CompanyPermissions"
+            },
+            "logo": {
+                "image": {
+                    "artifacts": [
+                        {
+                            "width": 200,
+                            "fileIdentifyingUrlPathSegment": "200_200/0/1656691864304?e=1674691200&v=beta&t=tRXmnPDPUlY_cN8W_1FAd0buefZnWFRx-bZddeW5CCc",
+                            "expiresAt": 1674691200000,
+                            "height": 200,
+                            "$type": "com.linkedin.common.VectorArtifact"
+                        },
+                        {
+                            "width": 100,
+                            "fileIdentifyingUrlPathSegment": "100_100/0/1656691864304?e=1674691200&v=beta&t=kxZSiUgZC1ryS_muiF9Emz2V7hm3WxNM5EPJnma8RRw",
+                            "expiresAt": 1674691200000,
+                            "height": 100,
+                            "$type": "com.linkedin.common.VectorArtifact"
+                        },
+                        {
+                            "width": 400,
+                            "fileIdentifyingUrlPathSegment": "400_400/0/1656691864304?e=1674691200&v=beta&t=xkpstGzV1QGMW5e1xzoS8RFHL2GW1_9Lh_M0VtQVYho",
+                            "expiresAt": 1674691200000,
+                            "height": 400,
+                            "$type": "com.linkedin.common.VectorArtifact"
+                        }
+                    ],
+                    "rootUrl": "https://media-exp1.licdn.com/dms/image/C560BAQE8bClrTGEKRg/company-logo_",
+                    "$type": "com.linkedin.common.VectorImage"
+                },
+                "type": "SQUARE_LOGO",
+                "$type": "com.linkedin.voyager.organization.CompanyLogoImage"
+            },
+            "partnerLogoImage": null,
+            "claimable": false,
+            "specialities": [
+                "Cat and Dog Adoptions",
+                "Veterinary Clinic",
+                "Membership-Based Dog Park",
+                "Humane Education"
+            ],
+            "confirmedLocations": [
+                {
+                    "country": "US",
+                    "geographicArea": "California",
+                    "city": "FRESNO",
+                    "postalCode": "93726",
+                    "$type": "com.linkedin.voyager.organization.OrganizationAddress",
+                    "streetAddressOptOut": false,
+                    "headquarter": true,
+                    "line1": "3934 N. HAYSTON AVENUE"
+                }
+            ],
+            "salesNavigatorCompanyUrl": null,
+            "*followingInfo": "urn:li:fs_followingInfo:urn:li:company:15912848",
+            "*companyIndustries": [
+                "urn:li:fs_industry:100"
+            ],
+            "viewerEmployee": false,
+            "affiliatedCompaniesWithEmployeesRollup": [],
+            "lcpTreatment": false,
+            "affiliatedCompaniesWithJobsRollup": [],
+            "associatedHashtagsResolutionResults": {
+                "*urn:li:fs_contentTopicData:urn:li:hashtag:lowcostclinic": "urn:li:fs_contentTopicData:urn:li:hashtag:lowcostclinic",
+                "*urn:li:fs_contentTopicData:urn:li:hashtag:nokillshelter": "urn:li:fs_contentTopicData:urn:li:hashtag:nokillshelter",
+                "*urn:li:fs_contentTopicData:urn:li:hashtag:valleyanimalcenter": "urn:li:fs_contentTopicData:urn:li:hashtag:valleyanimalcenter"
+            },
+            "phone": {
+                "number": "5592338690",
+                "$type": "com.linkedin.common.PhoneNumber"
+            },
+            "articlePermalinkForTopCompanies": null,
+            "name": "Valley Animal Center",
+            "tagline": "Uniting dogs and cats with loving people.",
+            "fundingData": null,
+            "overviewPhoto": {
+                "id": "/AAQABAQIAAkAAQAAAAAAAAIDAAAAJGRjNTcxZTc0LTYwNjctNGNlOC05NDE0LTYzZjhjMWVlM2Q4NQ.jpg",
+                "$type": "com.linkedin.voyager.common.MediaProcessorImage"
+            },
+            "multiLocaleTaglines": {
+                "localized": {
+                    "en_US": "Uniting dogs and cats with loving people."
+                },
+                "preferredLocale": {
+                    "country": "US",
+                    "language": "en",
+                    "$type": "com.linkedin.common.Locale"
+                },
+                "$type": "com.linkedin.common.MultiLocaleString"
+            },
+            "description": "Valley Animal Center is dedicated to controlling the pet population through education and spaying/neutering, not euthanasia. We believe animals, as living creatures, deserve to be protected, respected, and given every consideration morally and ethically. Our mission is to assist with and provide for the health and welfare of the animals that have been abused, mistreated, abandoned, and injured; to promote the bond between animals and people; and to instill an appreciation and respect for all living creatures with whom we share this earth.",
+            "partnerCompanyUrl": null,
+            "rankForTopCompanies": null,
+            "topCompaniesListName": null,
+            "entityUrn": "urn:li:fs_normalized_company:15912848",
+            "headquarter": {
+                "country": "US",
+                "geographicArea": "California",
+                "city": "FRESNO",
+                "postalCode": "93726",
+                "line1": "3934 N. HAYSTON AVENUE",
+                "$type": "com.linkedin.common.Address"
+            },
+            "paidCompany": false,
+            "universalName": "valley-animal-center",
+            "viewerPendingAdministrator": false,
+            "companyPageUrl": "http://valleyanimal.org",
+            "viewerConnectedToAdministrator": false,
+            "affiliatedCompanies": [],
+            "dataVersion": -1,
+            "foundedOn": {
+                "year": 1992,
+                "$type": "com.linkedin.common.Date"
+            },
+            "companyType": {
+                "localizedName": "Nonprofit",
+                "code": "NON_PROFIT",
+                "$type": "com.linkedin.voyager.organization.CompanyType"
+            },
+            "coverPhoto": {
+                "id": "/AAQABAQIAAkAAQAAAAAAAAIDAAAAJGRjNTcxZTc0LTYwNjctNGNlOC05NDE0LTYzZjhjMWVlM2Q4NQ.jpg",
+                "$type": "com.linkedin.voyager.common.MediaProcessorImage"
+            },
+            "associatedHashtags": [
+                "urn:li:fs_contentTopicData:urn:li:hashtag:lowcostclinic",
+                "urn:li:fs_contentTopicData:urn:li:hashtag:nokillshelter",
+                "urn:li:fs_contentTopicData:urn:li:hashtag:valleyanimalcenter"
+            ],
+            "groups": [],
+            "$recipeTypes": [
+                "com.linkedin.voyager.deco.organization.web.WebFullCompanyMain"
+            ],
+            "url": "https://www.linkedin.com/company/valley-animal-center",
+            "showcasePages": [],
+            "$type": "com.linkedin.voyager.organization.Company",
+            "claimableByViewer": false,
+            "jobSearchPageUrl": "https://www.linkedin.com/jobs/search?geoId=92000000&f_C=15912848",
+            "showcase": false,
+            "autoGenerated": true,
+            "backgroundCoverImage": {
+                "image": {
+                    "artifacts": [
+                        {
+                            "width": 750,
+                            "fileIdentifyingUrlPathSegment": "27_750/0/1662142679849?e=1667221200&v=beta&t=kCABAr8N7StZmWGmDyF1CqWQ8ZZmZY-6LzBhvn5VSEo",
+                            "expiresAt": 1667221200000,
+                            "height": 127,
+                            "$type": "com.linkedin.common.VectorArtifact"
+                        },
+                        {
+                            "width": 108,
+                            "fileIdentifyingUrlPathSegment": "08_640/0/1662142679849?e=1667221200&v=beta&t=UM-83bU845DfLbsOC2pUiZU31IR5tOHYadwhgB4ViG4",
+                            "expiresAt": 1667221200000,
+                            "height": 640,
+                            "$type": "com.linkedin.common.VectorArtifact"
+                        },
+                        {
+                            "width": 1128,
+                            "fileIdentifyingUrlPathSegment": "91_1128/0/1662142679849?e=1667221200&v=beta&t=FVg-9tE1fgXC4AGcHnPFr8akdkpsJSHnIE_RHm0G4bw",
+                            "expiresAt": 1667221200000,
+                            "height": 191,
+                            "$type": "com.linkedin.common.VectorArtifact"
+                        }
+                    ],
+                    "rootUrl": "https://media-exp1.licdn.com/dms/image/D4E3DAQEF4EuZsPCl6w/image-scale_1",
+                    "$type": "com.linkedin.common.VectorImage"
+                },
+                "cropInfo": {
+                    "x": 0,
+                    "width": 1128,
+                    "y": 0,
+                    "height": 191,
+                    "$type": "com.linkedin.voyager.identity.profile.ImageCropInfo"
+                },
+                "$type": "com.linkedin.voyager.identity.profile.BackgroundImage"
+            }
+        }
+    ]
+}
